@@ -1,0 +1,109 @@
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/* UTILITIES */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+
+/* LEZIONI */
+
+/* .lezioni .row .left,
+.lezioni .row .right{
+  width: 50%;
+  float:left;
+} */
+
+.lezioni .row .left img,
+.lezioni .row .right img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lezioni{
+  text-align: center;
+}
+
+.lezioni h1{
+  margin-bottom: 10px;
+}
+
+/* STEPS */
+
+/* .steps .row .left,
+.steps .row .central,
+.steps .row .right{
+  width: 33%;
+  float:left;
+} */
+
+.steps{
+  text-align: center;
+}
+
+.steps h1{
+  margin-bottom: 20px;
+}
+
+/* WHY */
+
+/* .why .row-1,
+.why .row-2,
+.why .row-3{
+  width: 100%;
+  margin-top: 50px;
+} */
+
+.why{
+  text-align: center;
+}
+
+.why .row-1 img,
+.row-2 img,
+.row-3 img{
+  background-color: gold;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.why h1{
+  margin-bottom: 50px;
+}
+
+.why .row-1 h3, p, hr{
+margin-top: 15px;
+}
+
+.why .row-2 h3, p, hr{
+margin-top: 15px;
+}
+
+.why .row-3 h3, p{
+margin-top: 15px;
+}
